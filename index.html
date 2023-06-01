@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootcamp Journal - Week 7</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;600;800&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: lightgrey;
+            text-align: center;
+            font-family: Nunito, sans-serif;
+        }
+
+        img {
+            margin-top: 25px;
+        }
+
+        .container {
+            width: 70%;
+            height: 100%;
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0;
+            padding-top: 15px;
+            box-shadow: 1px -1px 18px 1px rgba(117, 117, 117, 0.75);
+            -webkit-box-shadow: 1px -1px 18px 1px rgba(117, 117, 117, 0.75);
+            -moz-box-shadow: 1px -1px 18px 1px rgba(117, 117, 117, 0.75);
+        }
+
+        ul {
+            display: table;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .thoughts-container {
+            width: 60%;
+            margin: 0 auto;
+            text-align: left;
+            line-height: 1.5;
+        }
+
+        button {
+            background-color: rgb(0, 175, 239);
+            border: none;
+            padding: 10px;
+            color: white;
+            border-radius: 10px;
+            font-family: Nunito, sans-serif;
+            font-size: 1rem;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            cursor: pointer;
+            width: 40%;
+
+        }
+
+        button:hover {
+            background-color: rgb(0, 138, 207);
+            transition: .3s ease-in-out;
+        }
+
+
+
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Week 7</h1>
+        <p>May 28, 2023 - June 3, 2023</p>
+
+        <h2>Unit Testing, Exception Handling</h2>
+        <ul>
+            <li>try catch</li>
+            <li>Exception Object and Classes</li>
+            <li>finally</li>
+            <li>3 A's: Arrange, Act, Assert</li>
+        </ul>
+
+
+
+        <br>
+        <h2>Notable Things Learned:</h2>
+        <div class="thoughts-container">
+            <ul>
+                <li>To pass a map into AssertEquals, make a new map and add items to it one by one. Then you can pass in
+                    the map as an argument in the AssertEquals method while testing. </li>
+            </ul>
+        </div>
+        <h2>Thoughts:</h2>
+        <div class="thoughts-container">
+            <p>This was an uneventful week with unit testing and exception handling. There was only one homework
+                assignment that had us write a bunch of tests to some old homework problems. I had to get some help from
+                John to get the Word Count map to work properly in my tests. Always test edge cases if you have any as
+                well as any null values if applicable. This is the week where Jerry said that these unit tests separate
+                the hobbyists from the pros. He also recommended Uncle Bob's Clean Code Fundamentals. There is good info
+                but the theatrical aspect of it, the use of characters, costumes, and random voices, was not my cup of
+                tea.</p>
+            <br>
+            <p>I got a 4 out of 6 on my elevator pitch and got dinged for lack of a goal and bad flow while talking
+                about my education and abruptly talking about my current job. It's understandable since it is quite a
+                juxtaposition but adding more details and going over the 40 second mark and losing more points was not
+                an option for me.</p>
+        </div>
+
+
+        <div class="btn-container">
+            <p>Previous:</p>
+            <button onclick="window.location.href='https://sobreratas.github.io/week6/';">Week 6 (5/28/2023 -
+                5/20/2023)</button>
+            <p>Next:</p>
+            <button onclick="window.location.href='https://sobreratas.github.io/week8/';">Week 8 (6/4/2023 -
+                6/10/2023)</button>
+            <p>Main Menu:</p>
+            <button onclick="window.location.href='https://sobreratas.github.io/tech/';">Home</button>
+        </div>
+        <br>
+        <br>
+
+    </div>
+
+</body>
+
+</html>
